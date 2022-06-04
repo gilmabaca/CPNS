@@ -100,7 +100,6 @@ html {
     background: #fff;
     border-radius: 10px;
     margin: 25px;
-
     padding: 45px;
 }
 .card-header {
@@ -128,6 +127,12 @@ html {
     padding: 10px 20px;
     background: #fff;
     cursor: pointer;
+}
+
+.card-btn button a {
+    text-decoration: none;
+    color: #437ED3;
+    font-weight: bold;
 }
 
 /*RANDP*/

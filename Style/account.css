@@ -1,17 +1,19 @@
 * {
     font-family: 'Nunito', sans-serif;
 }
+
 body {
     height: 100vh;
     display:flex;
     flex-direction:column;
 }
+
 /*NAVBAR-ACCOUNT*/
 .navbar {
     display: flex;
     align-items: center;
     box-shadow: 0 6px 12px #0016;
-    height: 15vh;
+    padding: 15px 0;
 }
 
 .navbar a {
