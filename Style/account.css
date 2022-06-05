@@ -64,15 +64,21 @@ body {
 .botones button {
     width: 50%;
     background: #ffffff;
-    border-style: none;
     color: #035397;
     margin: 10px;
     font-size: 23px;
     cursor: pointer;
 }
 
-#btnIngresar {
+.btnIngresar {
     border-right: 1px solid #035397;
+    text-decoration: none;
+    color: #035397;
+}
+
+.btnRegistrar {
+    text-decoration: none;
+    color: #035397;
 }
 
 /*Footer*/
