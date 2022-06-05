@@ -107,8 +107,7 @@ body {
 
 .overlap-grupo8{
     height: 414px;
-    margin-right: 21px;
-    margin-top: 37px;
+    margin: 37px auto;
     position: relative;
     width: 349px;
 }
