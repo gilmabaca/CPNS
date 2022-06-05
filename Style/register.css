@@ -65,11 +65,13 @@ body {
     width: 150px;
 }
 
-.iandbtn img {
-    margin: 0 auto;
+.iandbtn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.iandbtn  input {
+.iandbtn input {
     width: 125px;
     background: #ffffff;
     border-style: none;
