@@ -30,15 +30,13 @@ body {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/*Register-WITHTOC*/
+/*Register*/
 
 .register-container {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.register {
-
+    margin: 25px 0;
 }
 
 .finput {
@@ -56,13 +54,22 @@ body {
     display: inline-block;
 }
 
-.finput input, select {
+.finput input {
     outline: none;
     height: 30px;
     margin: 5px;
     color: #000;
     border-style: none;
     width: 150px;
+}
+
+.finput select {
+    outline: none;
+    height: 30px;
+    margin: 5px;
+    color: #000;
+    width: 150px;
+    border: none;
 }
 
 .iandbtn {
