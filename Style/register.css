@@ -44,22 +44,40 @@ body {
 .finput {
     border: 2px solid #035397;
     padding: 10px;
-    min-width: 200px ;
-    height: 25px;
-    margin: 15px;
+    min-width: 500px ;
+    margin: 20px;
+    border-radius: 10px;
 }
 
 .finput label {
     color: #035397;
-
+    margin: 5px 0;
+    width: 100%;
+    display: inline-block;
 }
 
-.finput input {
+.finput input, select {
+    outline: none;
+    height: 30px;
+    margin: 5px;
+    color: #000;
+    border-style: none;
+    width: 150px;
+}
+
+.iandbtn img {
+    margin: 0 auto;
+}
+
+.iandbtn  input {
+    width: 125px;
+    background: #ffffff;
+    border-style: none;
     color: #035397;
-    position: absolute;
-
-}
-
-.iandbtn {
-
+    padding: 10px 0;
+    margin: 0 auto;
+    font-size: 23px;
+    cursor: pointer;
+    border-top: 1px solid #035397;
+    border-bottom: 1px solid #035397;
 }
