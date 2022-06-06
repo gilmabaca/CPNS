@@ -102,6 +102,9 @@ html {
     margin: 25px;
     padding: 45px;
 }
+.card ul {
+    margin-left: 35px;
+}
 .card-header {
     display: flex;
     flex-direction: column;
@@ -120,7 +123,7 @@ html {
     text-align: center;
     margin-top: 40px;
 }
-.card-btn button{
+.card-btn button {
     color: #437ED3;
     border-radius: 10px;
     border: 2px solid #437ED3;
@@ -154,8 +157,10 @@ html {
     background: #FF8A01;
     border-radius: 10px;
     margin: 25px;
-
     padding: 45px;
+}
+.cardP ul {
+    margin-left: 35px;
 }
 .cardP-header {
     color: #ffffff;
@@ -176,13 +181,14 @@ html {
     text-align: center;
     margin-top: 40px;
 }
-.cardP-btn button{
+.cardP-btn a{
     color: #437ED3;
     border-radius: 10px;
     border: 2px solid #437ED3;
     padding: 10px 20px;
     background: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*Footer*/
