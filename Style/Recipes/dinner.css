@@ -55,6 +55,9 @@
 
 /*Cards*/
 .container-services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 15px;
 }
 .visualizer_vid {

@@ -104,6 +104,7 @@ html {
 }
 .card ul {
     margin-left: 35px;
+    width: 240px;
 }
 .card-header {
     display: flex;
@@ -161,6 +162,7 @@ html {
 }
 .cardP ul {
     margin-left: 35px;
+    width: 240px;
 }
 .cardP-header {
     color: #ffffff;
